@@ -41,13 +41,14 @@ This project demonstrates a hands-on Intrusion Detection System (IDS) lab using 
    alert tcp any any -> any 445 (msg:"Possible SMB connection attempt"; sid:1000003; rev:1;)
    alert tcp any any -> any 4444 (msg:"Connection attempt to port 4444"; sid:1000010; rev:1;)
 
-   <img width="1024" height="768" alt="Rules" src="https://github.com/user-attachments/assets/ab8369cb-05cf-42d5-bfe1-ac96932ba01e" />
+ 
+ <img width="1024" height="768" alt="Rules" src="https://github.com/user-attachments/assets/ab8369cb-05cf-42d5-bfe1-ac96932ba01e" />
 
 
 
 Run Suricata
 
-suricata.exe -c suricata.yaml -i "\Device\NPF_{YOUR_GUID}" -s rules\homelab.rules
+    suricata.exe -c suricata.yaml -i "\Device\NPF_{YOUR_GUID}" -s rules\homelab.rules
 
 <img width="1024" height="768" alt="Suricata-Start" src="https://github.com/user-attachments/assets/a3e11d49-c1a9-42d3-be8e-a31fbc0bdefc" />
 
