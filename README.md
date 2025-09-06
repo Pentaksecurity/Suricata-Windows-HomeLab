@@ -1,10 +1,3 @@
-# Suricata-Windows-HomeLab
-
-GitHub Project Summary
-
-Repository Name: suricata-windows-homelab
-
-README.md Example:
 
 # Suricata Windows Homelab
 
